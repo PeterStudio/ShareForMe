@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		120DC1CF199312BF009F5080 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DC1CE199312BF009F5080 /* LoginViewController.m */; };
 		120DC1F7199317BA009F5080 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DC1D3199317BA009F5080 /* AFHTTPRequestOperation.m */; };
 		120DC1F8199317BA009F5080 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DC1D5199317BA009F5080 /* AFHTTPRequestOperationManager.m */; };
 		120DC1F9199317BA009F5080 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DC1D7199317BA009F5080 /* AFHTTPSessionManager.m */; };
@@ -65,8 +64,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		120DC1CD199312BF009F5080 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		120DC1CE199312BF009F5080 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		120DC1D2199317BA009F5080 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		120DC1D3199317BA009F5080 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		120DC1D4199317BA009F5080 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -286,8 +283,6 @@
 				12B9C45D1990C1350095BCC6 /* Supporting Files */,
 				12948B33199215C60064261B /* DrawerView.h */,
 				12948B34199215C60064261B /* DrawerView.m */,
-				120DC1CD199312BF009F5080 /* LoginViewController.h */,
-				120DC1CE199312BF009F5080 /* LoginViewController.m */,
 			);
 			path = MapStudy;
 			sourceTree = "<group>";
@@ -438,7 +433,6 @@
 				120DC1FB199317BA009F5080 /* AFSecurityPolicy.m in Sources */,
 				120DC207199317BA009F5080 /* UIWebView+AFNetworking.m in Sources */,
 				12948B35199215C60064261B /* DrawerView.m in Sources */,
-				120DC1CF199312BF009F5080 /* LoginViewController.m in Sources */,
 				120DC1F9199317BA009F5080 /* AFHTTPSessionManager.m in Sources */,
 				120DC201199317BA009F5080 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				120DC200199317BA009F5080 /* AFNetworkActivityIndicatorManager.m in Sources */,
