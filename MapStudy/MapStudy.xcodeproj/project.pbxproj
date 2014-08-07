@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120DC1CF199312BF009F5080 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DC1CE199312BF009F5080 /* LoginViewController.m */; };
 		12948B35199215C60064261B /* DrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12948B34199215C60064261B /* DrawerView.m */; };
 		12B9C4571990C1350095BCC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B9C4561990C1350095BCC6 /* Foundation.framework */; };
 		12B9C4591990C1350095BCC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B9C4581990C1350095BCC6 /* CoreGraphics.framework */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		120DC1CD199312BF009F5080 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		120DC1CE199312BF009F5080 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		12948B33199215C60064261B /* DrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerView.h; sourceTree = "<group>"; };
 		12948B34199215C60064261B /* DrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerView.m; sourceTree = "<group>"; };
 		12B9C4531990C1350095BCC6 /* MapStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +173,8 @@
 				12B9C45D1990C1350095BCC6 /* Supporting Files */,
 				12948B33199215C60064261B /* DrawerView.h */,
 				12948B34199215C60064261B /* DrawerView.m */,
+				120DC1CD199312BF009F5080 /* LoginViewController.h */,
+				120DC1CE199312BF009F5080 /* LoginViewController.m */,
 			);
 			path = MapStudy;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 				12B9C4671990C1350095BCC6 /* AppDelegate.m in Sources */,
 				12B9C4631990C1350095BCC6 /* main.m in Sources */,
 				12948B35199215C60064261B /* DrawerView.m in Sources */,
+				120DC1CF199312BF009F5080 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
