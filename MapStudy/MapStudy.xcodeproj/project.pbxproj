@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		12948B35199215C60064261B /* DrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12948B34199215C60064261B /* DrawerView.m */; };
-		12948B37199217E40064261B /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 12948B36199217E40064261B /* flower.png */; };
 		12B9C4571990C1350095BCC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B9C4561990C1350095BCC6 /* Foundation.framework */; };
 		12B9C4591990C1350095BCC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B9C4581990C1350095BCC6 /* CoreGraphics.framework */; };
 		12B9C45B1990C1350095BCC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B9C45A1990C1350095BCC6 /* UIKit.framework */; };
@@ -50,7 +49,6 @@
 /* Begin PBXFileReference section */
 		12948B33199215C60064261B /* DrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerView.h; sourceTree = "<group>"; };
 		12948B34199215C60064261B /* DrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerView.m; sourceTree = "<group>"; };
-		12948B36199217E40064261B /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
 		12B9C4531990C1350095BCC6 /* MapStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B9C4561990C1350095BCC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		12B9C4581990C1350095BCC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,7 +119,6 @@
 		12B9C44A1990C1350095BCC6 = {
 			isa = PBXGroup;
 			children = (
-				12948B36199217E40064261B /* flower.png */,
 				12B9C45C1990C1350095BCC6 /* MapStudy */,
 				12B9C47E1990C1360095BCC6 /* MapStudyTests */,
 				12B9C4551990C1350095BCC6 /* Frameworks */,
@@ -282,7 +279,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12948B37199217E40064261B /* flower.png in Resources */,
 				12B9C4A31990C9140095BCC6 /* AMap.bundle in Resources */,
 				12B9C46D1990C1350095BCC6 /* Main_iPad.storyboard in Resources */,
 				12B9C4721990C1350095BCC6 /* Images.xcassets in Resources */,
