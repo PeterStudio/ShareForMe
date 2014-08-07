@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <MAMapKit/MAMapKit.h>
 #import "DrawerView.h"
-
+#import "AFHTTPRequestOperationManager.h"
 @interface ViewController ()<MAMapViewDelegate>
 
 @property (nonatomic, strong) MAMapView *mapView;
@@ -47,6 +47,21 @@
 
     DrawerView *drawer = [[DrawerView alloc] initWithParentView:self.view];
     [self.view addSubview:drawer];
+    
+    
+//    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+//    manager.responseSerializer = [AFJSONResponseSerializer serializer];//申明返回的结果是json类型
+//    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];//如果报接受类型不一致请替换一致text/html或别的
+////    manager.requestSerializer=[AFJSONRequestSerializer serializer];//申明请求的数据是json类型
+//    NSDictionary *parameters = @{@"username": @"pet",@"password":@"123456",@"passwordf":@"123456",@"mobile":@"13004348920",@"yzm1":@"1234",@"yzm2":@"1234"};
+//    NSLog(@"%@",parameters);
+//    [manager POST:@"http://chere.sinaapp.com/aod_login/register" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+//        NSLog(@"JSON: %@", [responseObject objectForKey:@"message"]);
+//    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+//        NSLog(@"Error: %@", error);
+//    }];
+    
+
 }
 
 
@@ -55,6 +70,7 @@
     NSLog(@"location:%f",userLocation.coordinate.latitude);
     [self.mapView setCenterCoordinate:userLocation.coordinate];
     userLocation.title = @"这是我的位置";
+    
 }
 
 
