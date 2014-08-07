@@ -24,6 +24,11 @@
 		120DC205199317BA009F5080 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DC1F2199317BA009F5080 /* UIProgressView+AFNetworking.m */; };
 		120DC206199317BA009F5080 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DC1F4199317BA009F5080 /* UIRefreshControl+AFNetworking.m */; };
 		120DC207199317BA009F5080 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DC1F6199317BA009F5080 /* UIWebView+AFNetworking.m */; };
+		120DC20919932159009F5080 /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120DC20819932159009F5080 /* SMS_SDK.framework */; };
+		120DC20B1993216A009F5080 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120DC20A1993216A009F5080 /* MessageUI.framework */; };
+		120DC20D19932176009F5080 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120DC20C19932176009F5080 /* AddressBook.framework */; };
+		120DC20F1993217E009F5080 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120DC20E1993217E009F5080 /* AddressBookUI.framework */; };
+		120DC211199321A2009F5080 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 120DC210199321A2009F5080 /* libicucore.dylib */; };
 		12948B35199215C60064261B /* DrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12948B34199215C60064261B /* DrawerView.m */; };
 		12B9C4571990C1350095BCC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B9C4561990C1350095BCC6 /* Foundation.framework */; };
 		12B9C4591990C1350095BCC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B9C4581990C1350095BCC6 /* CoreGraphics.framework */; };
@@ -100,6 +105,11 @@
 		120DC1F4199317BA009F5080 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		120DC1F5199317BA009F5080 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		120DC1F6199317BA009F5080 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		120DC20819932159009F5080 /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		120DC20A1993216A009F5080 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		120DC20C19932176009F5080 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		120DC20E1993217E009F5080 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		120DC210199321A2009F5080 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		12948B33199215C60064261B /* DrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerView.h; sourceTree = "<group>"; };
 		12948B34199215C60064261B /* DrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerView.m; sourceTree = "<group>"; };
 		12B9C4531990C1350095BCC6 /* MapStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +150,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				120DC211199321A2009F5080 /* libicucore.dylib in Frameworks */,
+				120DC20F1993217E009F5080 /* AddressBookUI.framework in Frameworks */,
+				120DC20D19932176009F5080 /* AddressBook.framework in Frameworks */,
+				120DC20B1993216A009F5080 /* MessageUI.framework in Frameworks */,
 				12B9C4A11990C2910095BCC6 /* Security.framework in Frameworks */,
 				12B9C49F1990C2860095BCC6 /* libstdc++.6.0.9.dylib in Frameworks */,
 				12B9C49D1990C2770095BCC6 /* OpenGLES.framework in Frameworks */,
@@ -151,6 +165,7 @@
 				12B9C4911990C2380095BCC6 /* AMapSearchKit.framework in Frameworks */,
 				12B9C48F1990C22F0095BCC6 /* MAMapKit.framework in Frameworks */,
 				12B9C4591990C1350095BCC6 /* CoreGraphics.framework in Frameworks */,
+				120DC20919932159009F5080 /* SMS_SDK.framework in Frameworks */,
 				12B9C45B1990C1350095BCC6 /* UIKit.framework in Frameworks */,
 				12B9C4571990C1350095BCC6 /* Foundation.framework in Frameworks */,
 			);
@@ -172,6 +187,7 @@
 		120DC1D0199317BA009F5080 /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				120DC20819932159009F5080 /* SMS_SDK.framework */,
 				120DC1D1199317BA009F5080 /* AFNetworking */,
 				120DC1E5199317BA009F5080 /* UIKit+AFNetworking */,
 			);
@@ -250,6 +266,10 @@
 		12B9C4551990C1350095BCC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				120DC210199321A2009F5080 /* libicucore.dylib */,
+				120DC20E1993217E009F5080 /* AddressBookUI.framework */,
+				120DC20C19932176009F5080 /* AddressBook.framework */,
+				120DC20A1993216A009F5080 /* MessageUI.framework */,
 				12B9C4A01990C2910095BCC6 /* Security.framework */,
 				12B9C49E1990C2860095BCC6 /* libstdc++.6.0.9.dylib */,
 				12B9C49C1990C2770095BCC6 /* OpenGLES.framework */,
@@ -574,6 +594,7 @@
 					"$(inherited)",
 					/Users/yunzhongyang/Desktop/AMap_iOS_API_Lib_V2.2.1/2D,
 					/Users/yunzhongyang/Desktop/AMap_iOS_API_Lib_V2.2.1/Search,
+					"$(PROJECT_DIR)/MapStudy/ThirdLib",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapStudy/MapStudy-Prefix.pch";
@@ -594,6 +615,7 @@
 					"$(inherited)",
 					/Users/yunzhongyang/Desktop/AMap_iOS_API_Lib_V2.2.1/2D,
 					/Users/yunzhongyang/Desktop/AMap_iOS_API_Lib_V2.2.1/Search,
+					"$(PROJECT_DIR)/MapStudy/ThirdLib",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapStudy/MapStudy-Prefix.pch";
